@@ -1,0 +1,244 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body * {
+  font-family: 'Poppins' ,sans-serif;
+}
+
+/* ===== HEADER ===== */
+
+header {
+  margin-top:35px;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  animation: fromTop .3s .1s backwards;
+}
+
+/* IMAGE CONFIG */
+
+header div {
+  width:120px;
+}
+
+header img {
+  display:block;
+}
+
+/* TEXT CONFIG */
+
+header h1 {
+  color:white;
+}
+
+/* SOCIAL LINKS */
+
+header .socials {
+  display:flex;
+  justify-content: center;
+  gap:20px;
+}
+
+/* ===== MAIN ===== */
+
+main section {
+  padding-top:4px;
+  background-image: linear-gradient(90deg, #10e07f 0%, #0e37ec 50.52%, #630eec 100%);
+  border-radius:10px;
+}
+
+main section .content {
+  background:#1d1d1d;
+  border-radius:8px;
+  padding:24px 32px;
+
+  color:#f2ede4;
+}
+
+/* APLICANDO ESTILOS À TODOS OS TEXTOS DENTRO DE TODA SECTION / APPLY STYLES TO ALL TEXTS IN EACH SECTION */
+main section h2 {
+  color:rgb(209, 209, 209);
+  font-size:30px;
+}
+
+main section p {
+  color:#949494;
+}
+/* ... */
+
+/* SECTION INTRO */
+
+main .intro p {
+  font-size:18px;
+}
+
+/* Class criada especialmente para aplicar margin à essas section abaixo / Class created especially to apply margin to these section below */
+.margin-top {
+  margin-top:35px;
+}
+
+/* ========== SECTION GAMES ========== */
+
+main section:nth-child(2) h2 {
+  margin-bottom:15px;
+}
+
+/* UL GAME CARDS */
+main ul.game-cards {
+  display:flex;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+main .game-cards li {
+  border-radius:8px;
+  overflow: hidden;
+  width:105px;
+  text-align: center;
+}
+
+main .game-cards li img {
+  display:block;
+  width:100%;
+  border-radius:8px;
+}
+
+/* ========== EXTRA INFO ========== */
+
+.info-game div.content {
+  display:grid;
+  gap:15px;
+}
+
+/* TITLE */
+section.info-game .img-title {
+  width:100%; 
+  max-width:460px;
+  max-height:215px;
+  border:1px solid #242424;
+  border-radius:8px;
+}
+
+/* DIV WITH BUTTON */
+
+.info-button {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap:15px;
+}
+
+.info-button button {
+  background:none;
+  border:1px solid #2c2c2c;
+  border-radius:8px;
+
+  color:white;
+  font-size:20px;
+
+  padding:10px 20px;
+  
+  cursor: pointer;
+}
+
+/* STREAMERS */
+
+.streamers {
+  display:flex;
+  flex-wrap: wrap;
+  gap:10px;
+}
+
+.streamers li img {
+  border:1px solid #242424;
+  border-radius:50%;
+}
+
+/* ROCKETSEAT */
+
+#rocket p a {
+  color:#ffffff;
+  text-decoration: underline;
+}
+
+#rocket p a:hover {
+  color:rgb(90, 49, 128);
+}
+
+/* TO TOP */
+
+.top {
+  width:44px;
+  color:#4b4b4b;
+  text-decoration:underline;
+}
+
+/* ==================== ANIMATIONS ==================== */
+
+/* MAIN */
+main section {
+  animation: zoomOut .3s backwards;
+}
+
+/* INTRO */
+main section:nth-child(1) {
+  animation-delay: .1s;
+}
+
+/* GAMES */
+main section:nth-child(2) {
+  animation-delay: .2s;
+}
+
+/* TIBIA */
+main section:nth-child(3) {
+  animation-delay: .3s;
+}
+
+/* COUNTER-STRIKE */
+main section:nth-child(4) {
+  animation-delay: .4s;
+}
+
+/* GUILD WARS 2 */
+main section:nth-child(5) {
+  animation-delay: .5s;
+}
+
+/* ROCKETSEAT */
+main section:nth-child(6) {
+  animation-delay: .6s;
+}
+
+/* ==================== TRANSITIONS ==================== */
+
+/* Criei essa classe .up, para aplicar essa transição aos links para a Twitch. /  */
+li, .up {
+  transition:transform .2s;
+}
+li:hover, .up:hover {
+  transform:translateY(-7%);
+}
+
+/* INFO-BUTTON */
+button {
+  transition:background .2s;
+}
+
+button:hover {
+  background-color:#2c2c2c;
+  border:1px solid #494949;
+}
+
+/* Link para o top / Link to top */
+
+.top {
+  transition:color .2s;
+}
+
+.top:hover {
+  color: #6b6b6b;
+}

@@ -1,0 +1,79 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+/* ROCKET LOGO */
+
+.rocket-logo {
+  margin-top:35px;
+  margin-left:30px;
+}
+
+/* ===== HEADER ===== */
+
+header {
+  margin-top:calc(100px - 35px); /* A subtração é fácil, mas queria usar o calc para praticar. / Subtraction is easy, but I wanted to use calc for practice.*/
+}
+
+header div {
+  width:200px;
+  margin:auto;
+}
+
+header p {
+  color:#949494;
+  margin-top:25px;
+  text-align: center;
+  font-size:18px;
+}
+
+/* ===== MAIN ===== */
+
+main section {
+  display:grid;
+  justify-content: center;
+  gap:30px;
+}
+
+/* SOCIALS */
+
+main .socials {
+  display:flex;
+  justify-content: center;
+  gap:20px;
+}
+
+/* BUTTON */
+
+main button {
+  display:block;
+
+  background:none;
+  border:1px solid #272727;
+  border-radius:8px;
+
+  color:white;
+  font-size:20px;
+
+  padding:10px 20px;
+  
+  cursor: pointer;
+}
+
+main button:hover {
+  background-color:#131313;
+}
+
+/* ==================== TRANSITIONS ==================== */
+
+li {
+  transition:transform .2s;
+}
+li:hover {
+  transform:translateY(-7%);
+}
