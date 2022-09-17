@@ -30,6 +30,17 @@ Na página games, decidi separar cada game específico em uma determinada sectio
 
 Por fim, uma section para falar da Rocketseat. Nada extraordinário, apenas um tentativa de levar um possível novo interessado em programação, ao site oficial da empresa.
 
+>Css
+
+Eu separei 4 arquivos css em um tentativa de deixar o código mais limpo. 
+
+- style.css > index.html
+- game.css > games.html
+- default.css > index.html e games.html
+- animations.css > index.html e games.html
+
+O arquivo default.css, contém configurações para ambas as páginas, pegando o que as duas tem em comum e aplicando o estilo à essas propriedades. Estilos únicos para a própria página, estão nos seus respectivos arquivos.
+
 ## Muito obrigado 😉
 
 Este foi o meu projeto final. Espero que tenham gostado e que tenham aproveitado bastante este evento incrível! Boa sorte na jornada de vocês!
