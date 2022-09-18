@@ -10,9 +10,9 @@ Página games
 
 Caso queira acessar o projeto original:
 
->github: [Projeto original](https://github.com/juniormrtjy/NLW-eSports)
+>Github: [Projeto original](https://github.com/juniormrtjy/NLW-eSports)
 
->site: [Projeto original](https://juniormrtjy.github.io/NLW-eSports/)
+>Site: [Projeto original](https://juniormrtjy.github.io/NLW-eSports/)
 
 ## 🛠 Tecnologias
 
