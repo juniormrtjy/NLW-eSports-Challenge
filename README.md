@@ -6,7 +6,7 @@ Página inicial
 Página games
 ![preview](./.github/preview-02.png)
 
->Trilha Explorer
+>Trilha Explorer - [Rocketseat](https://www.rocketseat.com.br/)
 
 Caso queira acessar o projeto original:
 
@@ -46,5 +46,3 @@ O arquivo default.css, contém configurações para ambas as páginas, pegando o
 ## Muito obrigado 😉
 
 Este foi o meu projeto final. Espero que tenham gostado e que tenham aproveitado bastante este evento incrível! Boa sorte na jornada de vocês!
-
-[Rocketseat](https://www.rocketseat.com.br/)
