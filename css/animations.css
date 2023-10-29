@@ -1,0 +1,77 @@
+/* HEADER */
+header div {
+  transition: transform 0.3s;
+  animation: fromTop 0.8s 0.3s backwards;
+}
+
+header div:hover {
+  transform: scale(1.1);
+}
+
+/* SECTION */
+section {
+  animation: fromLeft 1s 0.3s backwards;
+}
+
+section:nth-of-type(2) {
+  animation-delay: 0.5s;
+}
+
+section:nth-of-type(3) {
+  animation-delay: 0.6s;
+}
+
+section:nth-of-type(3) {
+  animation-delay: 0.7s;
+}
+
+section:nth-of-type(4) {
+  animation-delay: 0.8s;
+}
+
+section:nth-of-type(5) {
+  animation-delay: 0.9s;
+}
+
+section:nth-of-type(6) {
+  animation-delay: 1s;
+}
+
+/* LI */
+section ul li {
+  transition: transform 0.3s;
+}
+
+section ul li:hover {
+  transform: translateY(-0.5rem);
+}
+
+/*
+==========
+ANIMATIONS
+==========
+ */
+
+@keyframes fromTop {
+  from {
+    transform: translateY(-20rem);
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fromLeft {
+  from {
+    transform: translateX(-20rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

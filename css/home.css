@@ -5,16 +5,16 @@
   --sub-head-color: #e5e5e5;
 }
 
-header img {
-  width: 15rem;
-}
-
 .game-list img {
   width: 15rem;
   border-radius: 0.8rem;
+  border: 1px solid var(--text-color);
 }
 
 /* GAME - GENERAL STYLE */
+.game img {
+  border: 1px solid var(--text-color);
+}
 .game-img {
   max-width: 90%;
   width: 45rem;

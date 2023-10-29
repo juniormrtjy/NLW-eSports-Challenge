@@ -49,10 +49,34 @@ img {
 }
 
 /* GENERAL STYLES */
+header {
+  text-align: center;
+
+  padding-top: 3.2rem;
+}
+
+header div {
+  width: 12rem;
+  margin: auto;
+
+  padding: 0.3rem;
+  background-image: linear-gradient(165deg, red 0%, blue 100%);
+  border-radius: 50%;
+}
+
+header div a {
+  display: flex;
+}
+
+header img {
+  border-radius: 50%;
+  display: inline;
+}
+
 main {
   max-width: 72rem;
   width: 90%;
-  margin: auto;
+  margin: 3.2rem auto;
 
   display: grid;
   gap: 2.4rem;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,418 +26,82 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/animations.css" />
 
     <!-- ICONS -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <title>NLW eSports Challenge</title>
+
+    <!-- STYLE -->
+    <style>
+      header div {
+        width: 20rem;
+      }
+      section {
+        background: none;
+      }
+
+      .challenge {
+        font-size: 2.4rem;
+        color: var(--sub-head-color);
+
+        border: 1px solid var(--sub-head-color);
+        border-radius: 0.8rem;
+
+        display: flex;
+        width: fit-content;
+        padding: 0.5rem 1.5rem;
+        margin-top: 2rem;
+      }
+    </style>
   </head>
   <body>
-    <!-- HEADER -->
     <header>
       <div>
-        <img src="https://www.github.com/juniormrtjy.png" alt="" />
+        <a href="home.html" aria-label="Link para a página de jogos.">
+          <img
+            src="https://www.github.com/juniormrtjy.png"
+            alt="Foto de perfil no github."
+          />
+        </a>
       </div>
     </header>
 
-    <!-- MAIN -->
     <main>
-      <!-- SECTION INTRO -->
-      <section class="section-intro">
+      <section>
         <div>
           <p>
-            Estes são os jogos que eu assisto de vez em quando e gostaria de
-            indicar para vocês.
-          </p>
-        </div>
-      </section>
-      <!-- ... -->
-
-      <!-- GAMES -->
-      <section
-        class="section__games-list"
-        id="game-list"
-        aria-label="Primeiro bloco do site, lista de jogos."
-      >
-        <div>
-          <!-- HEADER -->
-          <h2>Games</h2>
-
-          <!-- GAMES LIST -->
-          <ul class="game-list" aria-label="lista de jogos">
-            <!-- GAME -->
-            <li>
-              <a href="#tibia" aria-label="link para o jogo tibia">
-                <img
-                  src="https://static-cdn.jtvnw.net/ttv-boxart/19619_IGDB-285x380.jpg"
-                  alt="Imagem do jogo Tibia"
-              /></a>
-            </li>
-            <!-- ... -->
-
-            <!-- GAME -->
-            <li>
-              <a
-                href="#counter-strike"
-                aria-label="link para o jogo counter-stike 2"
-              >
-                <img
-                  src="https://static-cdn.jtvnw.net/ttv-boxart/32399-285x380.jpg"
-                  alt="Imagem do jogo Counter-strike 2"
-              /></a>
-            </li>
-            <!-- ... -->
-
-            <!-- GAME -->
-            <li>
-              <a href="#guildwars" aria-label="link para o jogo guild wars 2">
-                <img
-                  src="https://static-cdn.jtvnw.net/ttv-boxart/19357_IGDB-285x380.jpg"
-                  alt="Imagem do jogo Guild Wars 2"
-              /></a>
-            </li>
-            <!-- ... -->
-          </ul>
-        </div>
-      </section>
-      <!-- ... -->
-
-      <!-- TIBIA -->
-      <section class="game" id="tibia">
-        <div>
-          <!-- HEADER -->
-          <h2>Tibia</h2>
-          <img
-            src="https://3.bp.blogspot.com/-nyus8VfJSfQ/XGxUhS8AiEI/AAAAAAAANmc/Tfj44yln3xMjcjSA2Z4KpaYKNpJSbMBJgCLcBGAs/s640/hq720.jpg"
-            alt="imagem banner do tibia"
-            class="game-img"
-          />
-          <p>
-            Tibia é um jogo eletrônico de RPG multijogador (MMORPG) gratuito,
-            desenvolvido pela CipSoft. Criado em 1997, é um dos jogos mais
-            antigos do gênero. Nele, os jogadores podem desenvolver as
-            habilidades de seus personagens, buscar tesouros, resolver enigmas e
-            explorar áreas como cidades, masmorras, florestas, desertos, ilhas,
-            praias, minas, etc. Os personagens podem disputar lutas entre si ou
-            com criaturas, tais como monstros, dragões, demônios, orcs,
-            utilizando armas e magias, enquanto os NPCs não podem ser atacados
+            Oi, meu nome é Paulo. Confira as minhas redes antes de prosseguir
+            para o desafio. Caso me siga em alguma delas, eu seguirei de volta.
+            Muito obrigado!
           </p>
 
-          <!-- OFICIAL LINKS -->
-          <ul class="oficial-links">
-            <!-- link -->
+          <ul class="socials">
             <li>
               <a
-                href="https://www.tibia.com/mmorpg/free-multiplayer-online-role-playing-game.php"
+                href="https://instagram.com/juniormrtj"
                 target="_blank"
-                class="website-link"
-                aria-label="Link para o site oficial do jogo tibia"
-                >Site Oficial</a
+                aria-label="Link para o instagram"
               >
+                <img src="img/instagram.svg" alt="" />
+              </a>
             </li>
 
-            <!-- link -->
             <li>
               <a
-                href="https://www.twitch.tv/directory/category/tibia"
+                href="https://x.com/juniorfend"
                 target="_blank"
-                class="twitch-link"
-                aria-label="Link para o canal de tibia na twitch"
-                ><i class="ph-bold ph-twitch-logo"></i
-              ></a>
+                aria-label="link para o twitter"
+              >
+                <img src="img/twitter.svg" alt="" />
+              </a>
             </li>
           </ul>
-          <!-- ... -->
 
-          <h4>Alguns streamers</h4>
-
-          <!-- STREAMERS LINK -->
-          <ul class="streamers">
-            <!-- STREAMER -->
-            <li>
-              <a
-                href="https://www.twitch.tv/nakamacomtibia/videos"
-                target="_blank"
-                aria-label="Link para o canal do streamer Nakamacomtibia"
-              >
-                <img
-                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/54370750-20bd-44cc-971f-8e24c7049830-profile_image-150x150.png"
-                  alt="Imagem do streamer Nakamacomtibia"
-                />
-              </a>
-            </li>
-            <!-- ... -->
-
-            <!-- STREAMER -->
-            <li>
-              <a
-                href="https://www.twitch.tv/willzeraa__/videos"
-                target="_blank"
-                aria-label="Link para o canal do streamer Willzeraa"
-              >
-                <img
-                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/45df5094-4976-4885-ba30-28553229004c-profile_image-150x150.png"
-                  alt="Imagem do streamer Willzeraa"
-                />
-              </a>
-            </li>
-            <!-- ... -->
-
-            <!-- STREAMER -->
-            <li>
-              <a
-                href="https://www.twitch.tv/rafatny10/videos"
-                target="_blank"
-                aria-label="Link para o canal do streamer Rafatny"
-              >
-                <img
-                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/0f131f2a-3257-441a-bfa2-9a6495e5a1f6-profile_image-150x150.png"
-                  alt="Imagem do streamer Rafatny"
-                />
-              </a>
-            </li>
-            <!-- ... -->
-          </ul>
-          <!-- ... -->
-
-          <a href="#game-list" class="btn-up">Games</a>
+          <a href="home.html" class="challenge">Ir para o desafio</a>
         </div>
       </section>
-      <!-- ... -->
-
-      <!-- COUNTER-STRIKE 2 -->
-      <section class="game" id="counter-strike">
-        <div>
-          <!-- HEADER -->
-          <h2>Counter-Strike 2</h2>
-          <img
-            src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1696513856"
-            alt="Imagem banner do jogo Counter-strike 2"
-            class="game-img"
-          />
-          <p>
-            Há mais de duas décadas, o Counter-Strike oferece uma experiência
-            competitiva de elite moldada por milhões de jogadores mundialmente.
-            Agora, o próximo capítulo da história do CS vai começar. Isso é
-            Counter-Strike 2.
-          </p>
-
-          <!-- OFICIAL LINKS -->
-          <ul class="oficial-links">
-            <!-- link -->
-            <li>
-              <a
-                href="https://store.steampowered.com/app/730/CounterStrike_2/"
-                class="website-link"
-                aria-label="Link para a página na steam"
-                target="_blank"
-                >Página na steam</a
-              >
-            </li>
-
-            <!-- link -->
-            <li>
-              <a
-                href="https://www.twitch.tv/directory/category/counter-strike"
-                class="twitch-link"
-                aria-label="Link para o canal na twitch"
-                target="_blank"
-                ><i class="ph-bold ph-twitch-logo"></i
-              ></a>
-            </li>
-          </ul>
-          <!-- ... -->
-
-          <h4>Alguns streamers</h4>
-
-          <!-- STREAMERS LINK -->
-          <ul class="streamers">
-            <!-- STREAMER -->
-            <li>
-              <a
-                href="https://www.twitch.tv/gaules"
-                aria-label="link para o canal do streamer gaules"
-              >
-                <img
-                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/f4b12683-57ff-4b57-926a-67512b43a7ff-profile_image-150x150.png"
-                  alt="Imagem do streamer gaules"
-                />
-              </a>
-            </li>
-            <!-- ... -->
-
-            <!-- STREAMER -->
-            <li>
-              <a
-                href="https://www.twitch.tv/michel/videos"
-                target="_blank"
-                aria-label="Link para o canal do streamer Michel"
-              >
-                <img
-                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/dfb0cef3-87ca-4f09-9f52-7d7de319afbb-profile_image-150x150.png"
-                  alt="Imagem do streamer Michel"
-                />
-              </a>
-            </li>
-            <!-- ... -->
-
-            <!-- STREAMER -->
-            <li>
-              <a
-                href="https://www.twitch.tv/stewie2k/videos"
-                target="_blank"
-                aria-label="Link para o canal do streamer stewie2k"
-              >
-                <img
-                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/00563f70-d05b-4786-addd-5a3b43c2e5b4-profile_image-150x150.png"
-                  alt="Imagem do streamer stewie2k"
-                />
-              </a>
-            </li>
-            <!-- ... -->
-          </ul>
-          <!-- ... -->
-
-          <a href="#game-list" class="btn-up">Games</a>
-        </div>
-      </section>
-      <!-- ... -->
-
-      <!-- GUILD WARS 2 -->
-      <section class="game" id="guildwars">
-        <div>
-          <!-- HEADER -->
-          <h2>Guild Wars 2</h2>
-          <img
-            src="https://cdn.cloudflare.steamstatic.com/steam/apps/1284210/header.jpg?t=1698088260"
-            alt="imagem banner do jogo guild wars 2"
-            class="game-img"
-          />
-          <p>
-            Guild Wars 2 é um MMORPG premiado com combate dinâmico,
-            personalização de personagens detalhada e sem a necessidade de
-            assinatura. Escolha entre uma variedade de profissões e armas,
-            explore um vasto mundo aberto, dispute em modos PVP e muito mais.
-            Junte-se agora a mais de 16 milhões de jogadores!
-          </p>
-
-          <!-- OFICIAL LINKS -->
-          <ul class="oficial-links">
-            <!-- link -->
-            <li>
-              <a
-                href="https://www.guildwars2.com/en/"
-                target="_blank"
-                class="website-link"
-                aria-label="Link para o site oficial do jogo guild wars 2"
-                >Site Oficial</a
-              >
-            </li>
-
-            <!-- link -->
-            <li>
-              <a
-                href="https://www.twitch.tv/directory/category/guild-wars-2"
-                target="_blank"
-                class="twitch-link"
-                aria-label="Link para o canal na twitch do jogo guild wars 2"
-                ><i class="ph-bold ph-twitch-logo"></i
-              ></a>
-            </li>
-          </ul>
-          <!-- ... -->
-
-          <h4>Alguns streamers</h4>
-
-          <!-- STREAMERS LINK -->
-          <ul class="streamers">
-            <!-- STREAMER -->
-            <li>
-              <a
-                href="https://www.twitch.tv/livedochamp/videos"
-                target="_blank"
-                aria-label="Link para o canal do streamer livedochamp"
-              >
-                <img
-                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/db575c96-f2d6-4f19-84d9-b4d766562b02-profile_image-150x150.png"
-                  alt="Imagem do streamer livedochamp"
-                />
-              </a>
-            </li>
-            <!-- ... -->
-
-            <!-- STREAMER -->
-            <li>
-              <a
-                href="https://www.twitch.tv/grimjacke/videos"
-                target="_blank"
-                aria-label="Link para o canal do streamer Grimjacke"
-              >
-                <img
-                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/5797417c-b2a5-4265-87fd-9d8309c66244-profile_image-150x150.png"
-                  alt="imagem do streamer Grimjacke"
-                />
-              </a>
-            </li>
-            <!-- ... -->
-
-            <!-- STREAMER -->
-            <li>
-              <a
-                href="https://www.twitch.tv/novahh/videos"
-                target="_blank"
-                aria-label="Link para o canal do streamer novahh"
-              >
-                <img
-                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/195e21d8-dee4-4f30-95d2-874b3d172bf7-profile_image-150x150.png"
-                  alt="Imagem do streamer Novahh"
-                />
-              </a>
-            </li>
-            <!-- ... -->
-          </ul>
-          <!-- ... -->
-
-          <a href="#game-list" class="btn-up">Games</a>
-        </div>
-      </section>
-      <!-- ... -->
-
-      <!-- ROCKETSEAT -->
-      <section class="section-rocketseat">
-        <div>
-          <h2>Rocketseat</h2>
-          <p>
-            A
-            <a
-              href="https://www.rocketseat.com.br/"
-              target="_blank"
-              aria-label="Link para o site oficial da Rocketseat"
-              >Rocketseat</a
-            >
-            é uma empresa que tem ajudado milhares de pessoas a iniciarem suas
-            carreiras como dev. Este evento que participei, foi organizado por
-            esta empresa. Como era de se esperar, o evento foi magnifico e me
-            ajudou bastante. Pelos depoimentos na comunidade do discord, muitas
-            outras pessoas puderam aprender bastante e se apaixonar por esta
-            área que tem crescido muito. Creio que todo tipo de pessoa
-            participou: pessoas que tinham algum conhecimento, como pessoas que
-            estavam iniciando do 0. Se você ficou interessado, acesse o site
-            para mais informações.
-          </p>
-
-          <a
-            href="https://www.rocketseat.com.br/"
-            target="_blank"
-            aria-label="Link para o site oficial da Rocketseat"
-            class="rocketseat"
-            >Rocketseat</a
-          >
-
-          <a href="#" class="btn-up" aria-label="Link para o topo">Topo</a>
-        </div>
-      </section>
-      <!-- ... -->
     </main>
   </body>
 </html>
